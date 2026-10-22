@@ -49,3 +49,9 @@ input,textarea{width:100%;padding:10px 12px;border:1px solid var(--line);border-
 article.card p+p{margin-top:8px}
 footer{background:var(--hero);color:var(--hero-ink);text-align:center;padding:28px 20px;font-size:.9rem}
 footer a{color:var(--cyan)}
+
+.hero-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:40px;align-items:center}
+.hero-logo{background:#fff;border-radius:16px;padding:28px;box-shadow:0 8px 30px rgba(0,0,0,.25)}
+.hero-logo img{width:100%;height:auto;display:block}
+.eyebrow{font:700 .95rem "Trebuchet MS",Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:#7fe3b3;margin:0 0 12px!important;opacity:1!important}
+@media (max-width:760px){.hero-grid{grid-template-columns:1fr}.hero-logo{max-width:320px;order:-1}}
