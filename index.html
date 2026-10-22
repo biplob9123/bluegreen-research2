@@ -2,14 +2,34 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Home | BlueGreen Research and Consultancy</title>
 <meta name="description" content="BlueGreen Research and Consultancy, Gazipur: ETP design, IEE/EIA reports, GIS and hydrological training, and research support.">
-<link rel="icon" href="logo.png"><link rel="stylesheet" href="style.css"></head><body>
+<link rel="icon" href="logo.png"><link rel="stylesheet" href="style.css"><style>
+.h2x{position:relative;overflow:hidden;padding:72px 20px}
+.h2x::before,.h2x::after{content:"";position:absolute;border-radius:50%;pointer-events:none}
+.h2x::before{width:420px;height:420px;right:-120px;top:-160px;background:rgba(18,192,224,.12)}
+.h2x::after{width:320px;height:320px;left:-100px;bottom:-170px;background:rgba(0,190,99,.14)}
+.hx{position:relative;z-index:1;display:grid;grid-template-columns:minmax(260px,420px) 1fr;gap:56px;align-items:center}
+.hx-logo{background:#fff;border-radius:20px;padding:30px 26px;box-shadow:0 14px 40px rgba(0,0,0,.3);border-bottom:6px solid var(--leaf)}
+.hx-logo img{width:100%;height:auto;display:block}
+.hx-name{font:700 .9rem "Trebuchet MS",Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#7fe3b3;margin:0 0 14px}
+.hx-text h1{font-size:clamp(1.9rem,3.6vw,2.8rem);line-height:1.18;margin:0 0 16px}
+.hx-sub{font-size:1.1rem;max-width:34em;margin:0 0 20px;opacity:.93}
+.hx-chips{list-style:none;padding:0;margin:0 0 28px;display:flex;flex-wrap:wrap;gap:8px}
+.hx-chips li{font:600 .85rem "Trebuchet MS",Arial,sans-serif;padding:5px 14px;border:1px solid rgba(255,255,255,.35);border-radius:99px;background:rgba(255,255,255,.08)}
+.btn.ghost{background:transparent;color:var(--hero-ink);border:2px solid rgba(255,255,255,.55);padding:10px 22px;margin-left:6px}
+.btn.ghost:hover{background:rgba(255,255,255,.12)}
+@media (max-width:820px){.hx{grid-template-columns:1fr;gap:32px}.hx-logo{max-width:340px}.btn.ghost{margin:10px 0 0}}
+</style>
+</head><body>
 <header><nav><a class="logo" href="index.html"><img src="logo.png" alt="BlueGreen Research and Consultancy"></a><a class="l" href="about.html">About</a><a class="l" href="services.html">Services</a><a class="l" href="activities.html">Activities</a><a class="l" href="team.html">Team</a><a class="l" href="publications.html">Reports and Blog</a><a class="l" href="contact.html">Contact</a></nav></header>
-<main><div class="hero"><div class="wrap hero-grid"><div>
-<p class="eyebrow">BlueGreen Research and Consultancy</p>
+<main><div class="hero h2x"><div class="wrap hx">
+<div class="hx-logo"><img src="logo.png" alt="BlueGreen Research and Consultancy logo"></div>
+<div class="hx-text">
+<p class="hx-name">BlueGreen Research and Consultancy</p>
 <h1>Environmental research and consultancy for a cleaner, greener Bangladesh</h1>
-<p>From effluent treatment plant design to GIS training and research support, BlueGreen helps industries, students and researchers do environmental work properly.</p>
-<a class="btn" href="contact.html">Contact us</a></div>
-<div class="hero-logo"><img src="logo.png" alt="BlueGreen Research and Consultancy logo"></div></div></div>
+<p class="hx-sub">From effluent treatment plant design to GIS training and research support, BlueGreen helps industries, students and researchers do environmental work properly.</p>
+<ul class="hx-chips"><li>ETP Design</li><li>IEE / EIA</li><li>GIS Training</li><li>Research Support</li></ul>
+<a class="btn" href="contact.html">Contact us</a> <a class="btn ghost" href="services.html">Our services</a>
+</div></div></div>
 <section><div class="wrap"><h2>What we do</h2><p class="lead">Consultancy for industry, and training and support for the research community.</p><div class="grid"><div class="card"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3C9 7.5 6 10.5 6 14a6 6 0 0 0 12 0c0-3.500-3-6.500-6-11z"/></svg><h3>ETP design</h3><p>Design of effluent treatment plants so that industrial wastewater meets the discharge standards of the Department of Environment.</p></div><div class="card"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/></svg><h3>IEE and EIA reports</h3><p>Initial Environmental Examination and Environmental Impact Assessment reports prepared for environmental clearance.</p></div><div class="card"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h14v16H5z"/><path d="m8.500 11 2 2 4-4M8.500 17h7"/></svg><h3>Feasibility study</h3><p>Technical and environmental feasibility studies to check whether a project is workable before you invest.</p></div></div><p><a href="services.html">See all services</a></p>
 <div class="facts"><div><b>June 2026</b><span>Founded</span></div><div><b>2</b><span>Projects completed</span></div><div><b>1</b><span>Project in progress</span></div><div><b>6</b><span>Team members</span></div></div></div></section>
 <section class="alt"><div class="wrap"><h2>Current work</h2><p class="lead">We are designing an ETP and preparing the IEE report for a recycled paper factory in Sirajganj.</p><p><a href="activities.html">See our activities</a></p></div></section></main>
